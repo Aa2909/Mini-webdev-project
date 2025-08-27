@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row;
+         /* width:100%; */
+         background-color: blue;
+        
+        }
+        .container > div{
+            padding:10px;
+            
+            color:white;
+            /* width:100%; */
+        }
+        td{
+           width:400px;
+            background-color: rgb(226, 177, 187);
+        }
+        #gridbox{
+            display: grid;
+            grid-template-columns: repeat(3,250px);
+            grid-template-rows: repeat(3,150px);
+            background-color: rgb(230, 86, 86);
+            margin:20px;
+            width:100%;
+            
+            
+        }
+        img{
+            width:200px;
+            height:200px;
+            border-radius: 20%;
+        }
+        h1{
+            margin: auto;
+            font-size: 90px;
+            color:transparent;
+            background-image: linear-gradient(60deg,red, black,blue,orange);
+            -webkit-background-clip: text;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="box1">Home</div>
+         <div id="box2">About</div>
+          <div id="box3">Events</div>
+           <div id="box4">Gallery</div>
+            <div id="box5">Contact</div>
+    </div>
+
+
+    <table>
+        <tr>
+            <td>
+                <ol type="I">
+                     <li>Data</li>
+                      <li>Task</li>
+                      <li>Events</li>
+                      <li>Gallery</li>
+   
+                </ol>
+            </td>
+
+<td>
+    <ul>
+        <li>Data</li>
+        <li>Task</li>
+        <li>Events</li>
+        <li>Gallery</li>
+    </ul>
+</td>
+        </tr>
+         <tr>
+            <td>
+                <ol type="I">
+                     <li>Data</li>
+                      <li>Task</li>
+                      <li>Events</li>
+                      <li>Gallery</li>
+   
+                </ol>
+            </td>
+
+<td>
+    <ul>
+        <li>Data</li>
+        <li>Task</li>
+        <li>Events</li>
+        <li>Gallery</li>
+    </ul>
+</td>
+        </tr>
+    </table>
+
+
+    <div id="gridbox">
+
+        <h1>Welcome all</h1>
+        <!-- <div >
+            <img src="https://images.pexels.com/photos/11738523/pexels-photo-11738523.jpeg" >
+        </div>
+           <div >
+            <img src="https://images.pexels.com/photos/25753321/pexels-photo-25753321.jpeg">
+           </div>
+              <div >
+                <img src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg">
+              </div>
+                 <div >
+                    <img src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg">
+                 </div> -->
+                    
+    </div>
+   
+</html>
